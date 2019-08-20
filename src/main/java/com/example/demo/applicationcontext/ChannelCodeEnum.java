@@ -9,10 +9,10 @@ import java.util.Optional;
 @AllArgsConstructor
 public enum ChannelCodeEnum {
 
-    //万向
-    WANG_XIANG("G10001", "万向"),
+
+    WAN("G111", "xx"),
     //网金社
-    WANG_JIN_SHE("G30002", "网金社"),
+    WANG("G222", "yy"),
     //无
     NONE("000000", "无");
     private final String channelCode;

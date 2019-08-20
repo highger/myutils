@@ -21,7 +21,7 @@ public class AgencyApplicationContext {
     public <T> T get(ChannelCodeEnum channelCodeEnum, Class<T> clazz) {
         Optional<T> agencyBean = offer(channelCodeEnum, clazz);
         return agencyBean.orElseThrow(() -> {
-            String err = String.format("没有找到该类型以及对应资方的bean! channelCodeEnum = %s", channelCodeEnum);
+            String err = String.format("没有找到该类型以及对应资方的beans! channelCodeEnum = %s", channelCodeEnum);
             return new NoSuchBeanDefinitionException(clazz, err);
         });
     }
