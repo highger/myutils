@@ -11,9 +11,7 @@ public enum ChannelCodeEnum {
 
 
     WAN("G111", "xx"),
-    //网金社
     WANG("G222", "yy"),
-    //无
     NONE("000000", "无");
     private final String channelCode;
 
