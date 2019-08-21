@@ -17,6 +17,7 @@ public class SplitterUtils {
     public static final Splitter DIGIT = Splitter.on(CharMatcher.DIGIT.negate())
         .omitEmptyStrings().trimResults(CharMatcher.DIGIT.negate());
 
+    //匹配所有看不见的字符JAVA_DIGIT,如空格
     public static final Splitter INVISIBLE = Splitter.on(CharMatcher.INVISIBLE).omitEmptyStrings().trimResults();
 
 }
