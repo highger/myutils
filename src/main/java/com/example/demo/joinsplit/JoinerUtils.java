@@ -1,4 +1,4 @@
-package com.example.demo.jionsplit;
+package com.example.demo.joinsplit;
 
 import com.google.common.base.Joiner;
 
