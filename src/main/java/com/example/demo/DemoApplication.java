@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        System.out.println("12222222");
-        log.info("weee");
+        System.out.println("2018年10月5日");
+        log.info("项目成立！");
     }
 
 }
