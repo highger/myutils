@@ -9,7 +9,7 @@
 AgencyApplicationContext工具类通过获取Spring Bean中自定义注解，实现获取对应策略，来方便我们使用策略模式。
 
 ### Excel操作类：ExcelHelper
-该项目中通过ExcelHelper来实现Excel导出，通过自定义注解@ExcelBean、@ExcelColumn+反射实现Excel导出。
+该项目中通过ExcelHelper来实现Excel导出，通过自定义注解@ExcelBean、@ExcelColumn+反射+POI实现Excel导出。
 
 ### 时间转换类：DateConverter
 该项目中通过DateConverter工具类实现LocalDateTime、LocalDate与Date之间的相互转化。
@@ -18,7 +18,7 @@ AgencyApplicationContext工具类通过获取Spring Bean中自定义注解，实
 BeanCopierUtils通过反射技术实现bean字段拷贝，避免代码中大量的get/set。
 
 ### 时间统计类：TimerUtil
-项目中我们需要统计代码执行时间，可通过该类辅助完成。也可自定义输出精度，最大精度为纳秒。只需通过构造方法来指定，并通过toString即可输出。
+项目中我们需要统计代码执行时间，可通过该类辅助完成。也可自定义输出精度，最大精度为纳秒。只需通过构造方法来指定，并通过toString即可获得。
 
 ### Lombok 
 
