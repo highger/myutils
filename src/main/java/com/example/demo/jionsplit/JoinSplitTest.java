@@ -8,8 +8,8 @@ import java.util.List;
 public class JoinSplitTest {
     public static void main(String[] args) {
 
-        String name="q,w,e,r";
-        List<String> names = SplitterUtils.COMMA.splitToList(name);
+        String nameList="张三,李四,王二,麻子";
+        List<String> names = SplitterUtils.COMMA.splitToList(nameList);
         System.out.println(names);
         String join = JoinerUtils.COMMA.join(names);
         System.out.println(join);

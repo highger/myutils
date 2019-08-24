@@ -20,6 +20,17 @@ BeanCopierUtils通过反射技术实现bean字段拷贝，避免代码中大量�
 ### 时间统计类：TimerUtil
 项目中我们需要统计代码执行时间，可通过该类辅助完成。也可自定义输出精度，最大精度为纳秒。只需通过构造方法来指定，并通过toString即可获得。
 
+### 字符串解析工具类：JoinerUtils&SplitterUtils
+项目中如果我们需要对固定格式字符串进行解析，我们可以通过这个工具类完成，该工具借助谷歌guava工具类Joiner&Splitter来实现的。
+例如：
+```
+String nameList="张三,李四,王二,麻子";
+List<String> names = SplitterUtils.COMMA.splitToList(nameList);
+System.out.println(names);
+输出：
+[张三, 李四, 王二, 麻子]
+```
+
 ### Lombok 
 
 通过注解省略getter/setter,构造函数,toString.
