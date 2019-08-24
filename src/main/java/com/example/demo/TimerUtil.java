@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * 只用来计时, 无法确定系统当前时间
  */
 @ThreadSafe
-public class TimerExt {
+public class TimerUtil {
 
     private static final LinkedHashMap<TimeUnit, String> TIME_UNIT_AND_DISPLAY_NAME = Maps.newLinkedHashMap();
 
@@ -27,12 +27,12 @@ public class TimerExt {
 
     private final long start;
 
-    private TimerExt() {
+    private TimerUtil() {
         start = System.nanoTime();
     }
 
-    public static TimerExt start() {
-        return new TimerExt();
+    public static TimerUtil start() {
+        return new TimerUtil();
     }
 
     private long elapsedNanoTime() {

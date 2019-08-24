@@ -17,7 +17,7 @@ AgencyApplicationContext工具类通过获取Spring Bean中自定义注解，实
 ### Bean copy工具类：BeanCopierUtils
 BeanCopierUtils通过反射技术实现bean字段拷贝，避免代码中大量的get/set。
 
-### 时间统计类：TimerExt
+### 时间统计类：TimerUtil
 项目中我们需要统计代码执行时间，可通过该类辅助完成。也可自定义输出精度，最大精度为纳秒。只需通过构造方法来指定，并通过toString即可输出。
 
 ### Lombok 
