@@ -1,6 +1,7 @@
 # myutils
 该项目中维护了个人常用的一些工具类，可以帮助自己和大家在以后的项目更好的解决问题。
 
+
 ### id生成器：TransferNoGenerator
 该项目中根据当前时间+redis维护一个自定义id生成器，简单易操作。
 
@@ -11,7 +12,7 @@ AgencyApplicationContext工具类通过获取Spring Bean中自定义注解，实
 该项目中通过ExcelHelper来实现Excel导出，通过自定义注解@ExcelBean、@ExcelColumn+反射实现Excel导出。
 
 ### 时间转换类：DateConverter
-该项目中通过DateConverter工具类实现LocalDateTime和LocalDate之间的相互转化。
+该项目中通过DateConverter工具类实现LocalDateTime、LocalDate与Date之间的相互转化。
 
 ### Bean copy工具类：BeanCopierUtils
 BeanCopierUtils通过反射技术实现bean字段拷贝，避免代码中大量的get/set。
