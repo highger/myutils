@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 产品锁, 防止某些操作冲突, 例如打标,推送等操作同时进行
+ * 产品锁, 防止某些操作冲突, 例如dabiao,tuisong等操作同时进行
  *
  */
 @Component
