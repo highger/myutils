@@ -8,6 +8,10 @@
 ### 策略模式辅助类：AgencyApplicationContext
 AgencyApplicationContext工具类通过获取Spring Bean中自定义注解，实现获取对应策略，来方便我们使用策略模式。
 
+### 模版方法模式样板：TemplateTest
+这个模版方法demo，主要用于输出数据，已对异常做了处理，并对任务执行时间做了统计。
+其实在工作项目中，还可以基于注解结合策略模式，实现模版的选择，可更加简化我们项目中的代码。新增需求只需要实现定制化修改即可，增强了代码的可维护性，加速我们系统开发的进度。
+
 ### Excel操作类：ExcelHelper
 该项目中通过ExcelHelper来实现Excel导出，通过自定义注解@ExcelBean、@ExcelColumn+反射+POI实现Excel导出。
 

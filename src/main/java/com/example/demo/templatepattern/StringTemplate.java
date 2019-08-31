@@ -9,7 +9,7 @@ import java.util.List;
  * Created by mgy on 2019/8/31
  */
 @Component
-public class StringJob extends CommonTemplateJob<String> {
+public class StringTemplate extends CommonTemplate<String> {
 
     @Override
     protected List<String> initData() {

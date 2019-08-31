@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * Created by mgy on 2019/8/31
  */
 @Slf4j(topic = "job")
-public abstract class CommonTemplateJob<T> implements LifeCycleJob<T> {
+public abstract class CommonTemplate<T> implements LifeCycleTemplate<T> {
     List<T> list;
     TimerUtil timerUtil;
 

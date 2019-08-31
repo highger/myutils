@@ -3,7 +3,7 @@ package com.example.demo.templatepattern;
 /**
  * Created by mgy on 2019/8/31
  */
-public interface BaseJob extends Job {
+public interface BaseTemplate extends Template {
 
     @Override
     default void execute() {
@@ -37,7 +37,7 @@ public interface BaseJob extends Job {
      * 处理任务执行终发生的异常
      */
     default void onException(Exception e) {
-        throw new JobExecuteException(e);
+        throw new TemplateExecuteException(e);
     }
 
     /**

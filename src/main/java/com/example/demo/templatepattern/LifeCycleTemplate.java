@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.LongAdder;
  * Created by mgy on 2019/8/31
  */
 
-public interface LifeCycleJob<T> extends BaseJob {
+public interface LifeCycleTemplate<T> extends BaseTemplate {
 
     @Override
     default void run() {
