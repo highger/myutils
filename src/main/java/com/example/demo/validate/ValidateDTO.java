@@ -1,8 +1,10 @@
 package com.example.demo.validate;
 
 import lombok.Data;
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotBlank;
 
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 /**
@@ -21,11 +23,13 @@ public class ValidateDTO {
      * 年龄
      */
     @NotNull
+    @Min(0)
     private Integer age;
 
     /**
      * 电话
      */
     @NotNull
+    @Length(max = 11)
     private String phone;
 }

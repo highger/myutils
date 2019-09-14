@@ -35,6 +35,9 @@ System.out.println(names);
 [张三, 李四, 王二, 麻子]
 ```
 
+### 字段校验类：ValidateUtils
+项目中我们常需要对上游或数据库拿到的数据进行非空、长度、格式等校验，该工具类基于Validate实现此功能，避免了我们进行手动的非空判断。
+
 ### Lombok 
 
 通过注解省略getter/setter,构造函数,toString.
