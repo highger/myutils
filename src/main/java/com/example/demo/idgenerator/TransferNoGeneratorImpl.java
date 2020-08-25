@@ -43,6 +43,7 @@ public class TransferNoGeneratorImpl implements TransferNoGenerator {
     private String generateTransferNo() {
         String transferNo;
         LocalDateTime now = LocalDateTime.now();
+        //生成6位随机数
         int i = ThreadLocalRandom.current().nextInt(BOUND);
         String suffix = String.format("%06d", i);
         transferNo = FORMATTER.format(now) + suffix;
