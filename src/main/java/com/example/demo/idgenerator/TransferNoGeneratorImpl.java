@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-
+//根据当前时间生成随机18位Id
 @Component
 public class TransferNoGeneratorImpl implements TransferNoGenerator {
 
