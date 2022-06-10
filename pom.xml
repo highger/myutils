@@ -18,7 +18,7 @@
     <properties>
         <java.version>1.8</java.version>
         <optimus.version>1.5.5</optimus.version>
-        <dubbo.version>2.6.8</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <dubbo.doc.version>2.6.8</dubbo.doc.version>
         <spring.version>4.3.2.RELEASE</spring.version>
         <aspectj.version>1.7.0</aspectj.version>
