@@ -40,7 +40,7 @@
         <opjob.version>1.0.2</opjob.version>
         <gson.version>2.6.1</gson.version>
 
-        <fastjson.version>1.2.29</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <joda.version>2.5</joda.version>
 
         <finance-car.version>1.0.5-SNAPSHOT</finance-car.version>
