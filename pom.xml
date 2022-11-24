@@ -62,7 +62,7 @@
         <image.store.api.version>1.3.0-SNAPSHOT</image.store.api.version>
         <lease-maintained-api.version>1.4-SNAPSHOT</lease-maintained-api.version>
         <springdatajpa.version>1.11.12.RELEASE</springdatajpa.version>
-        <hibernate.version>5.1.1.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <fin.repayment.sdk.version>1.3.5-SNAPSHOT</fin.repayment.sdk.version>
         <logback.version>1.2.3</logback.version>
         <querydsl.version>4.1.4</querydsl.version>
