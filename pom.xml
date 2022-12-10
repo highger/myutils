@@ -20,7 +20,7 @@
         <optimus.version>1.5.5</optimus.version>
         <dubbo.version>2.6.8</dubbo.version>
         <dubbo.doc.version>2.6.8</dubbo.doc.version>
-        <spring.version>4.3.2.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <aspectj.version>1.7.0</aspectj.version>
         <cglib.version>2.2.2</cglib.version>
         <timestamp>${maven.build.timestamp}</timestamp>
